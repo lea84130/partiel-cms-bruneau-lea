@@ -1,0 +1,28 @@
+Exo-1 Dans un fichier texte, donner la définition d'un CMS
+
+--> C'est un logiciel en ligne grâce auquel il est possible de créer, de gérer et de modifier facilement un site web, sans avoir besoin de connaissances techniques en langage informatique. 
+
+
+Exo-4 Dans un fichier txt écrire une requête qui permet d'afficher toutes les voitures de la marque "BMW" 
+
+SELECT * FROM car WHERE brand = 'BMW';
+
+Exo-5 Dans un fichier txt écrire une requête qui permet d'afficher tout les noms de toutes les personnes ayant une voiture de couleur rouge trié par nom par ordre décroissant
+
+SELECT lastName FROM User JOIN car ON User.id =car.user_id WHERE car.color = 'rouge' ORDER BY lastName DESC;
+
+Exo-6 Dans un fichier txt écrire une requête qui permet d'ajouter la marque Ferrari dans la table brand
+
+INSERT INTO brand (brandLabel) VALUES ('Ferrari');
+
+Exo-7 Dans un fichier txt citer les plugins qui permettent de modifier un theme sous worpdress
+
+- Elementor
+- Divi 
+- Theme Editor
+- CSS Hero
+- Astra
+
+Exo-8 Dans un fichier txt citer les différence entre le sql et le no sql
+
+Le SQL est un modèle de données relationnel. Les données sont organisées dans des tables avec des relations établies entre les tables.Le NoSQL utilise un modèle de données non relationnel, ce qui signifie que les données sont stockées dans des formats plus flexibles tels que des documents, des colonnes etc... Il permet de mieux gérer de grandes quantités de données et une grande demande de requêtes.
