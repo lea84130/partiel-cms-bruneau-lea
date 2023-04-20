@@ -4,7 +4,7 @@ const container = document.getElementById('container');
     function ajouterImage() {
    
       const img = document.createElement('img');
-      img.src = 'chemin/vers/votre/image.jpg';
+      img.src = 'chaton.jpg';
       img.classList.add('image');
       container.appendChild(img);
     }
